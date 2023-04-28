@@ -4,6 +4,7 @@
     background-color: #10100e;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .grid_conteudo{
@@ -16,7 +17,7 @@
 }
 
 .fundo_card{
-    /* background-color: aqua; */
+    background-color: transparent;
     border: 2px solid #73022C;
     width: 240px;
     height: 400px;
@@ -62,4 +63,68 @@
     font-weight: 400;
     font-size: 13px;
     color: #D9115A;
+}
+
+@media screen and (max-width: 810px) {
+    .fundo_conteudo{ 
+        height: 450px;
+    }
+
+    .grid_conteudo{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .fundo_card{
+        width: 190px;
+        height: 300px;
+        padding-top: 35px;
+    }
+
+    .legenda_img{
+        font-size: 8px;
+    }
+
+    .titulo_card{
+        font-size: 13px;
+    }
+
+    .txt_card{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .fundo_conteudo{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .fundo_conteudo{ 
+        height: auto;
+    }
+
+    .grid_conteudo{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .fundo_card{
+        width: 160px;
+        height: 300px;
+        padding-top: 35px;
+    }
+
+    .legenda_img{
+        font-size: 6px;
+    }
+
+    .titulo_card{
+        font-size: 13px;
+    }
+
+    .txt_card{
+        font-size: 10px;
+    }
 }

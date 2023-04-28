@@ -53,3 +53,49 @@
     color: #D9115A;
 }
 
+@media screen and (max-width: 810px) {
+    .cabecalho{
+        width: 100%;
+        height: 83px;
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_cabecalho{
+        width: 10%;
+    }
+
+    .links_cabecalho > a{
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+
+    .rodape{
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .cabecalho{
+        width: 100%;
+        height: 50px;
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_cabecalho{
+        width: 15%;
+    }
+
+    .links_cabecalho > a{
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+
+    .rodape{
+        height: 90px;
+    }
+}
+
