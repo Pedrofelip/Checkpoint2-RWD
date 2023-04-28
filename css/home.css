@@ -1,0 +1,65 @@
+.fundo_conteudo{
+    width: 100%;
+    height: 550px;
+    background-color: #10100e;
+    display: flex;
+    justify-content: center;
+}
+
+.grid_conteudo{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fundo_card{
+    /* background-color: aqua; */
+    border: 2px solid #73022C;
+    width: 240px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.conteudo_card{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.img_card{
+    width: 90%;
+    border-radius: 25px;
+}
+
+.legenda_img{
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+    color: #D9115A;
+}
+
+.titulo_card{
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #D9115A;
+    text-transform: uppercase;
+}
+
+.txt_card{
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #D9115A;
+}
