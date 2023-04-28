@@ -37,6 +37,10 @@
     padding: 10px 10px;
 }
 
+.links_cabecalho > a:hover{
+    color: #d9115a46;
+}
+
 .rodape{
     background-color: #000000;
     display: flex;
