@@ -1,54 +1,69 @@
-header {
-    background-color: #333;
-    color: #050505;
-    padding: 20px;
-}
-
-header h1 {
-    margin: 0;
-}
-
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.fundo_conteudo{
+    width: 100%;
+    height: 550px;
+    background-color: #10100e;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-header nav li {
-    margin-right: 20px;
+.section_conteudo{
+    width: 90%;
+    height: 90%;
+    border: 2px solid #73022C ;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-header nav a {
-    color: #000000;
-    text-decoration: none;
+.wrap_conteudo{
+    /* background-color: aqua; */
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-    
-    section {
-        padding: 50px;
-    }
-    
-    section h2 {
-        margin-top: 0;
-    }
-    
-    section p {
-        margin-bottom: 30px;
-    }
-    
-    section figure {
-        margin-bottom: 50px;
-    }
-    
-    section figcaption {
-        font-style: italic;
-        text-align: center;
-    }
-    
-    
-    footer {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-    }
+
+.titulo_txt{
+    /* background-color: antiquewhite; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo_section{
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #D9115A;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.txt_section{
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #D9115A;
+}
+
+.figure_section{
+    width: 40%;
+}
+
+.img_section{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.legenda_img{
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+    color: #D9115A;
+}
